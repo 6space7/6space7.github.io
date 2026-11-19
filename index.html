@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio | Unity Asset Publisher</title>
+  <meta name="description" content="Official website of a Unity Asset Store publisher.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="logo" href="index.html" data-field="studioName">Your Studio Name</a>
+        <ul>
+          <li><a href="#products">Assets</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1 data-field="studioName">Your Studio Name</h1>
+      <p data-field="tagline"></p>
+      <a id="store-link" class="btn" href="#" target="_blank" rel="noopener">View on Unity Asset Store</a>
+      <a class="btn secondary" href="#support">Get support</a>
+    </div>
+
+    <section id="products">
+      <h2>Our assets</h2>
+      <div class="grid" id="products-list"></div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p class="muted" data-field="about"></p>
+      <p class="muted">Based in <span data-field="country"></span>.</p>
+    </section>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p class="muted">Questions, bug reports or feature requests? Email us and we will reply within 1–2 business days. Please include your invoice number and Unity version.</p>
+      <p><a data-email href="#"></a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> <span data-field="studioName"></span></span>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
