@@ -1,26 +1,16 @@
 // =====================================================
-//  EDIT ONLY THIS FILE - your details appear everywhere
+//  Edit this file to change your assets list and links
 // =====================================================
 window.SITE = {
-  studioName: "Your Studio Name",
-  tagline: "Unity tools, assets and templates that help developers ship games faster.",
-  about:
-    "We are an independent developer creating high-quality assets for the Unity Asset Store. " +
-    "Every package is built to be easy to use, well documented and supported.",
-  supportEmail: "support@example.com",
-  // Link to your Unity Asset Store publisher page (leave "" to hide the button)
+  // Link to your Unity Asset Store publisher page (leave "" to hide the buttons)
   assetStoreUrl: "",
-  country: "Your Country",
-  // Your products. Add or remove entries as needed.
+  // Your assets. Add one entry per asset. "url" = its Asset Store page (optional).
+  // "tag" is a short label such as "Tool", "Template", "3D", "VFX".
   products: [
     {
-      name: "First Asset",
-      description: "A short description of what this asset does and who it is for.",
-      url: ""
-    },
-    {
-      name: "Coming soon",
-      description: "More Unity assets are on the way.",
+      name: "First release",
+      tag: "Coming soon",
+      description: "My first Unity asset is in review. It will be listed here as soon as it goes live on the Asset Store.",
       url: ""
     }
   ]
